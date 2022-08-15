@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<AppHdr xmlns="urn:iso:std:iso:20022:tech:xsd:head.001.001.02" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	
+		<OrgId>
+			<Id>
+				<OrgId>
+					<AnyBIC>PNBPIE2DXXX</AnyBIC>
+				</OrgId>
+			</Id>
+		</OrgId>
+	</Fr>
+	<To>
+		<OrgId>
+			<Id>
+				<OrgId>
+					<AnyBIC>PBBBDEFFXXX</AnyBIC>
+				</OrgId>
+			</Id>
+		</OrgId>
+	</To>
+	<BizMsgIdr>BizMsgId</BizMsgIdr>
+	<MsgDefIdr>camt.056.001.08</MsgDefIdr>
+	<BizSvc>bot.bahtnet.can.01</BizSvc>
+	<CreDt>2020-03-24T10:48:00+05:30</CreDt>
+</AppHdr>
+<Document xmlns="urn:iso:std:iso:20022:tech:xsd:camt.056.001.08" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<FIToFIPmtCxlReq>
+		<Assgnmt>
+			<Id>NONREF</Id>
+			<Assgnr>
+				<Agt>
+					<FinInstnId>
+						<BICFI>PNBPIE2DXXX</BICFI>
+					</FinInstnId>
+				</Agt>
+			</Assgnr>
+			<Assgne>
+				<Agt>
+					<FinInstnId>
+						<BICFI>BOTHTHB1PSG</BICFI>
+					</FinInstnId>
+				</Agt>
+			</Assgne>
+			<CreDtTm>2019-10-07T10:12:00+05:30</CreDtTm>
+		</Assgnmt>
+		<Undrlyg>
+			<TxInf>
+			<OrgnlGrpInf>
+			   <OrgnlMsgId>OrgnlMsgId</OrgnlMsgId>
+			   <OrgnlMsgNmId>OrgnlMsgNmId</OrgnlMsgNmId>
+			   </OrgnlGrpInf>
+				<OrgnlInstrId>OrgnlInstrId</OrgnlInstrId>
+				<OrgnlEndToEndId>Inp008b022-E2EId</OrgnlEndToEndId>
+				<OrgnlUETR>e008b022-59c5-41e9-be4c-d45102fc201e</OrgnlUETR>
+				<OrgnlIntrBkSttlmAmt Ccy="THB">17750</OrgnlIntrBkSttlmAmt>
+				<OrgnlIntrBkSttlmDt>2019-10-07</OrgnlIntrBkSttlmDt>
+				<CxlRsnInf>
+					<Rsn>
+						<Prtry>CANCEL</Prtry>
+					</Rsn>
+					<AddtlInf>AddtlInf</AddtlInf>
+				</CxlRsnInf>
+			</TxInf>
+		</Undrlyg>
+	</FIToFIPmtCxlReq>
+</Document>

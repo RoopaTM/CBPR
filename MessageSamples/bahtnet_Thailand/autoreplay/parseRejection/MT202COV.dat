@@ -1,0 +1,35 @@
+{1:F01TESTGBVTAXXX0234024313}{2:I202TESTCNVTXAXXN}{3:{119:COV}{121:abcdefed-eddd-4edd-8edd-abcdefacdeac}}{4:
+:21:RelatedReference
+:32A:560205THB64,5
+:52A:/OrderingInstitutionOrderingInstitu
+UNMCUS51XXX
+:56A:/Intermediary IntermediaryIntermedi
+UNMCUS51XXX
+:57A:/Account With Institution Account W
+UNMCUS51XXX
+:58A:/Beneficiary Institution Beneficiar
+UNMCUS51XXX
+:72:/TEST/SndrToRcvrInfo12300000001
+/CATPURP/QWE
+:50A:/Ordering Customer Ordering Custome
+UNMCUS51XXX
+:52A:/OrderingInstitutionOrderingInstitu
+UNMCUS51XXX
+:56A:/Intermediary IntermediaryIntermedi
+UNMCUS51XXX
+:57A:/Account With Institution Account W
+UNMCUS51XXX
+:59A:/Beneficiary Customer Beneficiary C
+UNMCUS51XXX
+:70:Remittance Information Remittance I
+Remittance Information Remittance I
+Remittance Information Remittance I
+Remittance Information Remittance I
+:72:/CLSTIME/SndrToRcvrInfo1200001
+//SenderToReceiverInf00000000000002
+//SenderToReceiverInformation000003
+/CLSTIME/SndrToRcvrInfo120000
+//SndrToRcvrInfo1230000000000000005
+//SenderToReceiverInfor000000000006
+:33B:USD123456789012,45
+-}

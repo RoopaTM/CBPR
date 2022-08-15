@@ -1,0 +1,17 @@
+{1:F01TESTCNVTXXXX0000000000}{2:O2020000991231TESTCNVTXXXX00000000009912310000N}{3:{121:aaaaaaaa-aaaa-4aaa-8aaa-aaaaaaaaaaaa}}{4:
+:20:MsgId
+:21:OrgnlEndToEndId
+:32A:061121EUR10,
+:52A:TESTCONV123
+:56D:Nameofthesenderofthereceivinginstit
+AdrLineofthesenderfromtherecieving
+US/AdrLineofthesenderfromtherecievi
+ng2
+:57A:TESTCONV123
+:58A:TESTCONV123
+:72:/RETN/99
+/AC01/AdditionalInformationinfotobe
+/MREF/OrgnlInstrId
+/TREF/OrgnlEndToEndId
+/TEXT/continuedintheinfo
+-}

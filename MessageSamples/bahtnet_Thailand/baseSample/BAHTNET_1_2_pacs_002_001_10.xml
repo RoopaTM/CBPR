@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<AppHdr xmlns="urn:iso:std:iso:20022:tech:xsd:head.001.001.02" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<Fr>
+		<OrgId>
+			<Id>
+				<OrgId>
+					<AnyBIC>PBBBDEFFXXX</AnyBIC>
+				</OrgId>
+			</Id>
+		</OrgId>
+	</Fr>
+	<To>
+		<OrgId>
+			<Id>
+				<OrgId>
+					<AnyBIC>PBBBDEFFXXX</AnyBIC>
+				</OrgId>
+			</Id>
+		</OrgId>
+	</To>
+	<BizMsgIdr>BizMsgId</BizMsgIdr>
+	<MsgDefIdr>pacs.002.001.10</MsgDefIdr>
+	<BizSvc>bot.bahtnet.01</BizSvc>
+	<CreDt>2020-03-24T10:48:00+05:30</CreDt>
+</AppHdr>
+<Document xmlns="urn:iso:std:iso:20022:tech:xsd:pacs.002.001.10" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<FIToFIPmtStsRpt>
+		<GrpHdr>
+			<MsgId>MessageIdentifi1</MsgId>
+			<CreDtTm>2012-06-29T09:56:00+05:30</CreDtTm>
+		</GrpHdr>
+		<TxInfAndSts>
+			<OrgnlGrpInf>
+				<OrgnlMsgId>1234578</OrgnlMsgId>
+				<OrgnlMsgNmId>pacs.009</OrgnlMsgNmId>
+			</OrgnlGrpInf>
+			<OrgnlInstrId>InstrId124123456</OrgnlInstrId>
+			<OrgnlUETR>bd39aac4-bb66-4292-8d97-2d586e8a0470</OrgnlUETR>
+			<TxSts>RJCT</TxSts>
+			<StsRsnInf>
+			    <Rsn>
+					<Prtry>NARR</Prtry>
+				</Rsn>
+				<AddtlInf>Value</AddtlInf>
+			</StsRsnInf>
+			<OrgnlTxRef>
+				<PmtTpInf>
+					<CtgyPurp>
+						<Prtry>Prtry</Prtry>
+					</CtgyPurp>
+				</PmtTpInf>
+			</OrgnlTxRef>
+		</TxInfAndSts>
+	</FIToFIPmtStsRpt>
+</Document>

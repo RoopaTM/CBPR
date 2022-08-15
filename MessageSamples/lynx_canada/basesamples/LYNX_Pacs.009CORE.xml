@@ -1,0 +1,92 @@
+<?xml version = "1.0" encoding = "UTF-8"?>
+<AppHdr xmlns="urn:iso:std:iso:20022:tech:xsd:head.001.001.02" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <Fr>
+        <FIId>
+            <FinInstnId>
+                <BICFI>TESTCONVXXX</BICFI>
+            </FinInstnId>
+        </FIId>
+    </Fr>
+    <To>
+        <FIId>
+            <FinInstnId>
+                <BICFI>PBAADEFFAC2</BICFI>
+            </FinInstnId>
+        </FIId>
+    </To>
+    <BizMsgIdr>MsgIdr</BizMsgIdr>
+    <MsgDefIdr>pacs.009.001.08</MsgDefIdr>
+    <BizSvc>paymentsca.lynx.02</BizSvc>
+    <CreDt>2020-03-24T10:48:00+04:00</CreDt>
+    <PssblDplct>true</PssblDplct>
+    <Prty>HIGH</Prty>
+</AppHdr>
+<Document xmlns="urn:iso:std:iso:20022:tech:xsd:pacs.009.001.08" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<FICdtTrf>
+    <GrpHdr>
+        <MsgId>MsgIdr</MsgId>
+        <CreDtTm>2020-03-24T10:48:00+04:00</CreDtTm>
+        <NbOfTxs>1</NbOfTxs>
+        <SttlmInf>
+            <SttlmMtd>CLRG</SttlmMtd>
+            <ClrSys>
+                <Cd>LYX</Cd>
+            </ClrSys>
+        </SttlmInf>
+    </GrpHdr>
+    <CdtTrfTxInf>
+        <PmtId>
+            <InstrId>BBBB/060928</InstrId>
+            <EndToEndId>BBBB/060928-CCTJ</EndToEndId>
+            <TxId>BBBB/060928-FICT/JPY/430/1</TxId>
+            <UETR>abcdefed-eddd-4edd-8edd-abcdefacdeac</UETR>
+            <ClrSysRef>BBBB060928</ClrSysRef>
+        </PmtId>
+        <PmtTpInf>
+            <InstrPrty>HIGH</InstrPrty>
+            <SvcLvl>
+                <Cd>NUGP</Cd>
+            </SvcLvl>
+            <LclInstrm>
+                <Prtry>205</Prtry>
+            </LclInstrm>
+            <CtgyPurp>
+                <Cd>CASH</Cd>
+            </CtgyPurp>
+        </PmtTpInf>
+        <IntrBkSttlmAmt Ccy="CAD">10000000</IntrBkSttlmAmt>
+        <IntrBkSttlmDt>2006-09-29</IntrBkSttlmDt>
+        <SttlmPrty>NORM</SttlmPrty>
+        <InstgAgt>
+            <FinInstnId>
+                <BICFI>TESTCONV123</BICFI>
+            </FinInstnId>
+        </InstgAgt>
+        <InstdAgt>
+            <FinInstnId>
+                <BICFI>PBAADEFFAC2</BICFI>
+            </FinInstnId>
+        </InstdAgt>
+        <IntrmyAgt1>
+            <FinInstnId>
+                <BICFI>PNBPUS6LXXX</BICFI>
+            </FinInstnId>
+        </IntrmyAgt1>
+        <Dbtr>
+            <FinInstnId>
+                <BICFI>PNBPUS6LXXX</BICFI>
+            </FinInstnId>
+        </Dbtr>
+        <CdtrAgt>
+            <FinInstnId>
+                <BICFI>TESTCONVCCC</BICFI>
+            </FinInstnId>
+        </CdtrAgt>
+        <Cdtr>
+            <FinInstnId>
+                <BICFI>TESTCONVBBB</BICFI>
+            </FinInstnId>
+        </Cdtr>
+    </CdtTrfTxInf>
+</FICdtTrf>
+</Document>
